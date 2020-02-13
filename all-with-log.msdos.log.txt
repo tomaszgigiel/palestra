@@ -1,0 +1,64 @@
+
+C:\Users\tgigiel\Documents\workspace-clojure\palestra\batch\msdos>pushd C:\Users\tgigiel\Documents\workspace-clojure\palestra\batch\msdos\ 
+
+C:\Users\tgigiel\Documents\workspace-clojure\palestra\batch\msdos>REM lein-repl.bat 
+
+C:\Users\tgigiel\Documents\workspace-clojure\palestra\batch\msdos>call lein-compile.bat  0<a-key-press-in-a-ms-dos-batch-file.txt 
+
+C:\Users\tgigiel\Documents\workspace-clojure\palestra\batch\msdos>if not exist "\Users\tgigiel\_delete_content\" md "\Users\tgigiel\_delete_content\" 
+
+C:\Users\tgigiel\Documents\workspace-clojure\palestra\batch\msdos>pushd C:\Users\tgigiel\Documents\workspace-clojure\palestra\batch\msdos\\..\.. 
+
+C:\Users\tgigiel\Documents\workspace-clojure\palestra>if exist target rmdir /s /q target 
+
+C:\Users\tgigiel\Documents\workspace-clojure\palestra>call lein do clean, compile 
+Press any key to continue . . . 
+ok
+Press any key to continue . . . 
+
+lein test pl.tomaszgigiel.palestra.codewars.aaa-test
+
+lein test pl.tomaszgigiel.palestra.codewars.disguised2-test
+
+lein test pl.tomaszgigiel.palestra.codewars.findeven-test
+
+lein test pl.tomaszgigiel.palestra.codewars.gps-test
+
+lein test pl.tomaszgigiel.palestra.codewars.mix-test
+
+lein test pl.tomaszgigiel.palestra.codewars.movie-test
+
+lein test pl.tomaszgigiel.palestra.codewars.skyscrapers-test
+
+lein test pl.tomaszgigiel.palestra.codewars.third-angle-of-triangle-test
+
+lein test pl.tomaszgigiel.palestra.common-test
+
+lein test pl.tomaszgigiel.palestra.core-test
+
+lein test pl.tomaszgigiel.palestra.my-test-config
+
+Ran 16 tests containing 55 assertions.
+0 failures, 0 errors.
+Press any key to continue . . . 
+Compiling pl.tomaszgigiel.palestra.codewars.aaa
+Compiling pl.tomaszgigiel.palestra.codewars.disguised2
+Compiling pl.tomaszgigiel.palestra.codewars.findeven
+Compiling pl.tomaszgigiel.palestra.codewars.gps
+Compiling pl.tomaszgigiel.palestra.codewars.mix
+Compiling pl.tomaszgigiel.palestra.codewars.movie
+Compiling pl.tomaszgigiel.palestra.codewars.others
+Compiling pl.tomaszgigiel.palestra.codewars.skyscrapers
+Compiling pl.tomaszgigiel.palestra.codewars.skyscrapers-const
+Compiling pl.tomaszgigiel.palestra.codewars.skyscrapers4
+Compiling pl.tomaszgigiel.palestra.codewars.skyscrapers6
+Compiling pl.tomaszgigiel.palestra.codewars.skyscrapers7
+Compiling pl.tomaszgigiel.palestra.codewars.third-angle-of-triangle
+Compiling pl.tomaszgigiel.palestra.common
+Compiling pl.tomaszgigiel.palestra.core
+Created C:\Users\tgigiel\Documents\workspace-clojure\palestra\target\uberjar\palestra.jar
+Created C:\Users\tgigiel\Documents\workspace-clojure\palestra\target\uberjar\palestra-uberjar.jar
+Press any key to continue . . . 
+ok
+Press any key to continue . . . 
+Press any key to continue . . . 
